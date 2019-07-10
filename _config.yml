@@ -82,3 +82,10 @@ deploy:
   type: git
   repository: ssh://git@github.com/XLMore/XLMore.github.io.git
   branch: master
+ 
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    # src: custom_mathjax_source
+    config:
+      # MathJax config
